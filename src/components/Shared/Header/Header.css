@@ -1,14 +1,5 @@
-.header {
-    background-color: rgb(96, 28, 28);
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 50px;
-}
+/* .header .navbar {
+    background-color: brown !important;
 
-.header a {
-    text-decoration: none;
-    color: bisque;
-    font-size: 20px;
-}
+
+} */
