@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Wedding",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://www.pexels.com/photo/groom-embracing-lovely-bride-11743301/"
+    },
+    {
+        "id": 2,
+        "name": "Party",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://www.pexels.com/photo/people-raising-their-hands-2078071/"
+    },
+    {
+        "id": 3,
+        "name": "Celebration",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://www.pexels.com/photo/people-toasting-wine-glasses-3171837/"
+    },
+    {
+        "id": 4,
+        "name": "Birthdayparty",
+        "price": "180",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://www.pexels.com/photo/photo-of-girl-having-fun-in-birthday-party-2399097/"
+    }
+]
