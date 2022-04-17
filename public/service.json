@@ -4,27 +4,27 @@
         "name": "Wedding",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://www.pexels.com/photo/groom-embracing-lovely-bride-11743301/"
+        "img": "https://images.pexels.com/photos/11743301/pexels-photo-11743301.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
     },
     {
         "id": 2,
         "name": "Party",
         "price": "100",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://www.pexels.com/photo/people-raising-their-hands-2078071/"
+        "img": "https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
         "id": 3,
         "name": "Celebration",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://www.pexels.com/photo/people-toasting-wine-glasses-3171837/"
+        "img": "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
     {
         "id": 4,
         "name": "Birthdayparty",
         "price": "180",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://www.pexels.com/photo/photo-of-girl-having-fun-in-birthday-party-2399097/"
+        "img": "https://images.pexels.com/photos/2399097/pexels-photo-2399097.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
 ]
