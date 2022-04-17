@@ -71,7 +71,7 @@ const Login = () => {
                     Login
                 </Button>
             </Form>
-
+            {errorElement}
             <p>New to Happy Clicking??? <Link to='/register' className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register.</Link></p>
 
             <p>Forget Password??? <button className=' btn btn-link text-danger pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
