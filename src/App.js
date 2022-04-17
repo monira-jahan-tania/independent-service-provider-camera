@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import Header from './components/Shared/Header/Header';
 import { Route, Routes } from 'react-router-dom';
