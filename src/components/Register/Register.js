@@ -4,6 +4,7 @@ import './Register.css';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../Shared/Loading/Loading';
 
 const Register = () => {
     const [
@@ -29,6 +30,9 @@ const Register = () => {
     const navigate = useNavigate();
     const navigateLogin = event => {
         navigate('/login');
+    }
+    if (loading) {
+        return <Loading></Loading>
     }
     return (
         <div className='register-form'>

@@ -6,6 +6,7 @@ import auth from '../../firebase.init';
 import './Login.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Loading from '../Shared/Loading/Loading';
 
 const Login = () => {
     const [
@@ -29,6 +30,10 @@ const Login = () => {
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
         signInWithEmailAndPassword(email, password);
+    }
+
+    if (loading || sending) {
+        return <Loading></Loading>
     }
     if (user) {
         navigate(from, { replace: true });
@@ -54,7 +59,7 @@ const Login = () => {
         navigate('/register');
     }
     return (
-        <div>
+        <div className='container text-center'>
             <Form className='container mx-auto mt-5 w-50' onSubmit={handleSubmit}>
                 <h1 className='text-secondary text-center'>Please Log in</h1>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
