@@ -1,6 +1,7 @@
 .service {
-    border: 2px solid rgb(73, 72, 72);
-    border-radius: 5px;
+    /* border: 2px solid rgb(73, 72, 72); */
+    box-shadow: 10px 10px 5px rgb(210, 217, 221);
+    /* border-radius: 5px; */
     display: flex;
     flex-direction: column;
     justify-content: center;

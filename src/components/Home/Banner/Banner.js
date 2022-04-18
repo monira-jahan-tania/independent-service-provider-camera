@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Banner.css';
-import banner1 from '../../../images/banner/banner1.jpeg';
+import banner1 from '../../../images/banner/banner1.jpg';
 import banner2 from '../../../images/banner/banner2.jpeg';
-import banner3 from '../../../images/banner/banner3.jpeg';
+import banner3 from '../../../images/banner/banner3.jpg';
 
 
 
@@ -24,8 +24,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Keep Your Favourite Memory Alive</h3>
+                        <p >I am providing you the best collections of your photos in your important events</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -36,8 +36,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Keep Your Favourite Memory Alive</h3>
+                        <p >I am providing you the best collections of your photos in your important events</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -48,10 +48,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
+                        <h3 className='text-dark'>Keep Your Favourite Memory Alive</h3>
+                        <p className='text-dark fs-5 fw-bold'>I am providing you the best collections of your photos in your important events</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

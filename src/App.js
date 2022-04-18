@@ -1,4 +1,3 @@
-import logo from './logo.png';
 import './App.css';
 import Header from './components/Shared/Header/Header';
 import { Route, Routes } from 'react-router-dom';
@@ -11,6 +10,7 @@ import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Checkout from './components/Checkout/Checkout';
 import NotFound from './components/NotFound/NotFound';
+import QuestionAns from './components/Home/QuestionAns/QuestionAns';
 
 function App() {
   return (
