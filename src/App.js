@@ -11,6 +11,7 @@ import RequireAuth from './components/RequireAuth/RequireAuth';
 import Checkout from './components/Checkout/Checkout';
 import NotFound from './components/NotFound/NotFound';
 import QuestionAns from './components/Home/QuestionAns/QuestionAns';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/home' element={<Home />}></Route>
         <Route path='/service/:serviceId' element={<ServiceDetails />}></Route>
         <Route path='/about' element={<About />}></Route>
+        <Route path='/blogs' element={<Blogs />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/checkout' element={
