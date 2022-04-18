@@ -4,6 +4,7 @@ import facebookLogo from '../../images/social/facebook.png';
 import githubLogo from '../../images/social/github.png';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import Loading from '../Shared/Loading/Loading';
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, errorForGoogle] = useSignInWithGoogle(auth);
@@ -12,10 +13,13 @@ const SocialLogin = () => {
     let errorElement;
     if (errorForGoogle || errorForGithub) {
         errorElement = <div>
-            <p className='text-danger'>Error: {errorForGoogle?.message}{errorForGithub.message}</p>
+            <p className='text-danger'>Error: {errorForGoogle?.message}{errorForGithub?.message}</p>
         </div>
     }
 
+    if (loading || loading1) {
+        return <Loading></Loading>
+    }
     return (
         <div>
             <div className='d-flex align-items-center '>

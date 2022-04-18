@@ -26,13 +26,16 @@ const Register = () => {
         navigate('/home');
     }
 
-
+    let errorElement;
     const navigate = useNavigate();
     const navigateLogin = event => {
         navigate('/login');
     }
     if (loading) {
         return <Loading></Loading>
+    }
+    if (error) {
+        errorElement = <p className='text-danger'>Error: {error?.message}</p>
     }
     return (
         <div className='register-form'>
@@ -51,6 +54,9 @@ const Register = () => {
                     value="Register" />
 
             </form>
+
+            {errorElement}
+
             <p>Already ahve one??? <Link to='/login' className='text-danger pe-auto text-decoration-none ' onClick={navigateLogin}>Please Login.</Link></p>
             <SocialLogin></SocialLogin>
         </div>

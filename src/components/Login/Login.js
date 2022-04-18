@@ -38,9 +38,9 @@ const Login = () => {
     if (user) {
         navigate(from, { replace: true });
     }
-    if (error) {
+    if (error || errorForReset) {
         errorElement =
-            <p className='text-danger'>Error: {error?.message}</p>
+            <p className='text-danger'>Error: {error?.message} {errorForReset?.message}</p>
     }
 
 
